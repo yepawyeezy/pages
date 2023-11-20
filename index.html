@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>:)</title>
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <style>
+    
+      /* first swwap start */
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+  
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    /* first swap end */
+      .id .swiper {
+        width: 400px;
+        height: 480px;
+      }
+
+      .id .swiper .swiper-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 18px;
+        font-size: 22px;
+        font-weight: bold;
+        color: #fff;
+      }
+    /* last swap start */
+
+      .id .swiper {
+        width: 400px;
+        height: 480px;
+      }
+
+      .id .swiper .swiper-slide {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 18px;
+        font-size: 22px;
+        font-weight: bold;
+        color: #fff;
+      }
+    /* last swap end */
+
+    @media (max-width: 760px) {
+      .id .swiper{
+        width: 240px;
+        height: 320px;
+      }
+    }
+
+    @media (max-width: 480px){
+      .id .swiper{
+        width: 200px;
+        height: 280px;
+      }
+    }
+
+
+    </style>
+  </head>
+  <body>
+    <!-- navbar start -->
+
+    <nav
+    class="xl\:bg-gray-900 dark:bg-gray-900 w-full top-0 left-0 mt-6"
+    id="nav"
+  >
+    <div
+      class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
+    >
+      <a href="#" class="flex items-center">
+        <img
+          src="Keqing+Chibi+Peeking.png"
+          class="h-12 mr-3"
+          alt="Flowbite Logo"
+        />
+        <span
+          class="self-center text-2x font-bold font-serif italic whitespace-nowrap dark:text-white"
+          id="abe"
+          >ABE</span
+        >
+      </a>
+      <div class="flex md:order-2">
+        <button
+          type="button"
+          id="button"
+          class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        >
+          <a href="https://yepawyeezy.github.io/login/">Log Out</a>
+        </button>
+      </div>
+      <div
+        class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+        id="navbarNav"
+      >
+        <ul
+          class="flex space-x-4 p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-12 md:mt-0 md:border-0 dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+        >
+          <li>
+            <a
+              href="#introduction"
+              class="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover-text-blue-700 md:p-0 md:dark:hover-text-blue-500 dark:text-white dark:hover-bg-gray-700 dark:hover-text-white md:dark:hover-bg-transparent dark:border-gray-700"
+              aria-current="page"
+              >Intro</a
+            >
+          </li>
+          <li>
+            <a
+              href="#contents"
+              class="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover-text-blue-700 md:p-0 md:dark:hover-text-blue-500 dark:text-white dark:hover-bg-gray-700 dark:hover-text-white md:dark:hover-bg-transparent dark:border-gray-700"
+              >Contents</a
+            >
+          </li>
+          <li>
+            <a
+              href="#ending"
+              class="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover-text-blue-700 md:p-0 md:dark:hover-text-blue-500 dark:text-white dark:hover-bg-gray-700 dark:hover-text-white md:dark:hover-bg-transparent dark:border-gray-700"
+              >Ending</a
+            >
+          </li>
+          <li>
+            <a
+              href="#bonus"
+              class="block py-2 pl-3 pr-4 rounded hover:bg-gray-100 md:hover-bg-transparent md:hover-text-blue-700 md:p-0 md:dark:hover-text-blue-500 dark:text-white dark:hover-bg-gray-700 dark:hover-text-white md:dark:hover-bg-transparent dark:border-gray-700"
+              >Bonus</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- navbar end -->
+
+  <span id="blur"></span>
+  <span id="blur"></span>
+
+  <!-- Introduction start -->
+
+  <div class="swiper mySwiper mt-4">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="d.jpg" class="aw" alt=""></div>
+        <div class="swiper-slide"><img src="b.jpg" class="aw" alt=""></div>
+        <div class="swiper-slide"><img src="c.jpg" class="aw" alt=""></div>
+        <div class="swiper-slide"><img src="a.jpg" class="aw" alt=""></div>
+        <div class="swiper-slide"><img src="e.jpg" class="aw" alt=""></div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  <div id="introduction" class="text-black text-6x1 mt-32 text-center">
+    <span
+      class="self-center text-3xl font-bold whitespace-nowrap dark:text-white"
+      >Introduction</span
+    >
+  </div>
+
+  <div class="grid place-items-center mt-16" id="video">
+    <video width="550" height="420" autoplay muted loop>
+      <source src="1113.mp4" type="video/mp4" />
+    </video>
+    <p class="ml-1 mt-16">
+      Nama saya adalah Fariz Firmansyah. Saya merupakan siswa dari SMA Islamic
+      Center. Orang tua saya bercerai ketika saya sudah memasuki jenjang
+      sekolah menengah ke atas saat corona virus sedang merajalela dan itu
+      lumayan memberikan dampak yang besar kepada saya selama hamnpir satu
+      setengah tahun. Semasa smp bisa dibilang saya sangat aktif dalam
+      berbagai kegiatan dan siswa yang pintar, namun karena mulai terbiasanya
+      aktivitas serba online dikarenakan virus corona, saya lebih memilih
+      bermain game dan melupakan semua aktivitas pendidikan dikarenakan
+      depresi yang saya alami dan rasa malas yang menjadi-jadi. Setelah satu
+      setengah tahun bencana corona virus itu selesai dan aktivitas kembali
+      offline seperti biasa, saya merasa ini bukan diri saya yang biasanya.
+      Sifat saya menjadi tertutup ketika bersosialisasi, otak saya menjadi
+      lambat bekerja, dan percintaan pun berakhir kandas. Seperti saya yang
+      mengetahui sifat asli gebetan yang aslinya friendly, gebetan saya yang
+      ternyata disukai oleh sahabat saya sendiri dan mau gak mau saya harus
+      mengalah dan lain lain. Suatu hari, saya melihat wanita yang berasal
+      dari kelas yang sama dengan saya hendak membuka masker untuk makan
+      siang. Saat saya melihat dia, saya pun merasa jatuh cinta lagi dan
+      wanita itu bernama
+      <span class="text-blue-300">Najwa Putri Syahrani</span>.
+    </p>
+  </div>
+  <!-- introduction end -->
+
+  <span id="blur"></span>
+  <span id="blur"></span>
+
+  <!-- content start -->
+
+  <div id="contents" class="text-black text-6x1 mt-40 text-center">
+    <span
+      class="self-center text-3xl font-bold whitespace-nowrap dark:text-white"
+      >Contents</span
+    >
+  </div>
+
+  <!-- bab 1 -->
+
+  <div id="contents" class="text-black text-6x1 mt-16 text-center">
+    <span
+      class="self-center text-3xl font-bold whitespace-nowrap dark:text-white"
+      >BAB 1</span
+    >
+  </div>
+
+  <div class="grid place-items-center mt-16" id="video">
+    <video width="550" height="420" autoplay muted loop>
+      <source src="1114.mp4" type="video/mp4" />
+    </video>
+    <p class="ml-1 mt-16">
+      Dia najwa putri syahrani, dia adalah orang yang membuat saya jatuh cinta
+      lagi untuk kesekian kalinya. Saya memiliki niat untuk mendekatinya
+      karena kebetulan dia duduk diseberang kanan dari meja saya. Saya mencoba
+      mendekati dia dengan cara bertanya tanya mengenai tugas matematika yang
+      sempat diberikan oleh guru saat sekolah namun saya tidak memiliki nomor
+      teleponnya. Saya bertanya kepada teman sebangku saya yaitu genta untuk
+      meminta nomor teleponnya dan untungnya dia mempunyai nomor najwa ini.
+      Inilah saatnya saya untuk beraksi. Tidak lama setelah genta memberi
+      nomor telepon najwa ke saya, saya PC dia saat jam 11.06 malam untuk
+      menanyai tugas matematika tadi siang saat sekolah.
+    </p>
+    <div
+      class="flex justify-center items-center mt-16 gap-5 object-cover"
+      id="img1"
+    >
+      <img src="ab.jpeg" class="chat" />
+      <img src="ac.jpeg" class="chat" />
+    </div>
+    <p class="ml-1 mt-16">
+      Dimulai dari sinilah perjalanan cinta saya dimulai. Saya dan najwa
+      semakin dekat karena kebetulan kita memiliki candaan yang satu frekuensi
+      dan dari najwa nya juga yang selalu bisa mulai perbincangan walau kadang
+      kami hanya melakukan trash talk saja, namun itu sangat berarti buat saya
+      karena saya merasa dia sudah terbuak dengan saya. Hanya butuh pdkt
+      kurang lebih seminggu saya memiliki niat untuk menembak dia. Saya
+      memiliki pengalaman yang lumayan sedih tentang pdkt lama-lama karena
+      pdkt kelamaan bakal bikin dia bosen dan jadi malas untuk melanjutkan
+      hubungan karena itu saya pdkt dengan dia hanya seminggu (walau itu juga
+      kurang bener si hehehe).
+    </p>
+  </div>
+  <!-- bab 1 -->
+
+  <!-- bab 2 -->
+  <div id="contents" class="text-black text-6x1 mt-16 text-center">
+    <span
+      class="self-center text-3xl font-bold whitespace-nowrap dark:text-white"
+      >BAB 2</span
+    >
+  </div>
+
+  <span id="blur"></span>
+  <span id="blur"></span>
+
+  <div class="grid place-items-center mt-16" id="video">
+    <video width="550" height="420" autoplay muted loop>
+      <source src="1115.mp4" type="video/mp4" />
+    </video>
+    <p class="ml-1 mt-16">
+      Akhirnya pada tanggal 5 juni saya mencoba memberanikan diri untuk
+      menembak najwa. Disitu saya benar-benar tidak ingin mengulangi kesalahan
+      saya yang dulu karena terlalu lama PDKT, dan disitu sebenarnya saya
+      lumayan percaya diri kalau najwa sendiri juga memiliki rasa yang sama
+      kepada saya karena kita selalu chattan hingga panjang lebar. Setelah
+      pulang sekolah, najwa ada kegiatan ekskul PMR yang meharuskan saya
+      menunggu sebentar didepan ruang PMR dan akhirnya dia selesai mengikuti
+      kegiatan ekskul nya dan bertemu dengan saya didepan ruang PMR. Awalnya
+      saya berniat untuk mengajak dia jajan di SMP yang dekat dengan SMA kita
+      yang kebetulan di wilayah SMP itu merupakan pusat jajanan kuliner tapi
+      saya tidak jadi mengajaknya kesana dan saya mengajaknya ke lawson agar
+      saya bisa lebih leluasa untuk menembak dia karena ada meja disana dan
+      jarak antar meja disana lumayan jauh jadi saya bisa menembak najwa tanpa
+      takut kedengaran orang lain dan menjadi malu.
+    </p>
+
+    <p class="ml-1 mt-16">
+      Sesampainya di lawson saya bersama najwa akhirnya belajar bareng karena
+      kebetulan najwa membawa buku lks mtk dia dan saya menawarkan diri untuk
+      mengajari dia karena kebetulan saya lumayan mengerti untuk bab
+      matematika yang kami sedang pelajari saat itu. Saat kita sedang ingin
+      mempersiapkan buku masing-masing, saya ingin membelikan dia kopi
+      terlebih dahulu supaya belajar jadi lebih chill and sound anjas. Saya
+      kembali dari kasir setelah membeli kopi dan iseng menempelkan kopi yang
+      penuh dengan embun air dingin ke pipinya. Dia memperllihatkan ekspresi
+      yang sangat lucu pada saat itu dan sempet merajuk sedikit. Kami pun
+      akhirnya mulai belajar dengan mengerjakan soal per soal. Terkadang ada
+      pertanyaan yang dia tidak mengerti dia akan langsung menanyakannya pada
+      saya dan saya menjelaskannya secara pelan-pelan. Dengan kesadaran penuh
+      yang saya tidak tahu motivasi apa yang muncul diotak saya, saya
+      menyenderkan kepala saya ke pundak najwa. Tapi dia tidak memperlihatkan
+      reaksi illfeel ataupun yang lainnya melainkan ekspresi tersenyum yang
+      sangat imut. Akhirnya aku mulai memberanikan diri menanyakan kepada
+      najwa “mau gak jadi pacar gw, atau enggak gw emggak ajarin mtk buat lu
+      lagi nih”.
+    </p>
+
+    <div
+      class="flex justify-center items-center mt-16 object-cover"
+      id="img1"
+    >
+      <img src="ae.jpeg" class="chat2" />
+    </div>
+
+    <p class="ml-1 mt-16">
+      Najwa sempat terdiam karena omongan dari saya yang sangat amat tiba tiba
+      itu. Karena proses kita pdkt terbilang masih sebentar yaitu masih
+      sekitar 1 minggu kurang lebih. Namun dia akhirnya menjawab kalo dia mau
+      untuk menjadi pacar saya. Saya disitu menahan teriak senang gembira
+      karena saya sudah NT 3 kali dalam hubungan romansa dan akhirnya saya
+      berhasil. Karena juga kebetulan hari sudah semakin larut saya dan najwa
+      meniatkan diri untukk pulang kerumah. Saat sudah dimotor dan sudah jalan
+      saya benar-benar teriak dijalan “wuhuyyyyyy”. Najwa pun sempat malu-malu
+      dan tertawa juga. Namun ditengah perjalanan mata saya sempat kelilipan
+      debu. Saya pun meminta tolong najwa untuk tiupin mata saya, itung-itung
+      itu merupakan modus pertama saya dengannya untuk pertama kali dalam
+      hubungan pacaran. Dan dia meniupi mata saya dan saya rada salting ketika
+      ditiupin itu. Dan akhirnya kita sampai rumah dan saya berpamitan dengan
+      najwa. “hati hati ya fariz” itu baru pertama kali juga seumur hidup saya
+      mendapatkan kalimat itu dari seorang pacar, saya sangat amat bahagia
+      pada hari itu dan tidak akan pernah melupakan momen itu sama sekali.
+    </p>
+  </div>
+
+  <!-- bab 2 -->
+
+  <span id="blur"></span>
+  <span id="blur"></span>
+
+  <!-- bab 3 -->
+
+  <div id="contents" class="text-black text-6x1 mt-16 text-center">
+    <span
+      class="self-center text-3xl font-bold whitespace-nowrap dark:text-white"
+      >BAB 3</span
+    >
+  </div>
+
+  <div class="grid place-items-center mt-16" id="video">
+    <video width="550" height="420" autoplay muted loop>
+      <source src="1116.mp4" type="video/mp4" />
+    </video>
+
+    <p class="ml-1 mt-16">
+      Sudah berjalan selama dua bulan hubungan saya dimulai bersama najwa,
+      kami telah melewati berbagai hal indah bersama. Padahal ini masih
+      berjalan 2 bulan, tapi semuanya berjalan dengan sangat baik dan sangat
+      amat lancar. Kami banyak menghabiskan waktu berjalan-jalan kesana
+      kemari, kami juga sering jajan bareng dan yang lainnya. Bahkan kami saat
+      pulang sekolah pun menyempatkan diri untuk berjalan-jalan terlebih
+      dahulu untuk menghilangkan stress setelah sekolah dan itu terus berjalan
+      hingga kamu lulus sekolah. Bahkan saya sudah diberi kepercayaan oleh
+      kedua orang tuanya untuk membawa najwa pergi kemana saja tapi saya juga
+      tetap menghargai orang tua najwa untuk tidak lupa dengan waktu ketika
+      bersama najwa. Setelah melewati 2 bulan yang begitu indah itu, kami
+      berdua akhirnya naik kelas menjadi kelas 12 dan akhirnya cobaan untuk
+      hubungan kami pun akhirnya tiba.
+    </p>
+
+    <div
+      class="flex justify-center items-center mt-16 object-cover"
+      id="img1"
+    >
+      <img src="ai.jpeg" class="chat2" />
+    </div>
+
+    <p class="ml-1 mt-16">
+      Pada suatu hari saya bersama kedua teman saya yang bernama andre dan oji
+      sedang ingin istirahat dan pergi menuju kantin, namun ditengah jalan
+      kami bertemu dengan 3 wanita yang berasal dari kelas yang sama dengan
+      kita bernama kayla, otan dan bulan. Dari ketiga wanita itu, ada satu
+      wanita yang merupakan mantan gebetan saya yang bernama otan itu. Saya
+      berpikir ketika saya bertemu otan lagi semuanya sudah kembali baik baik
+      saja, saya sudah punya pacar yang lebih baik dari dia dan dia pun sudah
+      punya pacar juga . Mereka ingin ikut ke kantin dengan kita dan ingin
+      membuat sebuah vlog. Sebenernya aku dari awal memang sudah tidak mau
+      ikut, tapi andre dan oji memaksaku tetap ikut, aku dengan bodohnya
+      terbujuk ajakan mereka. Saat ingin menuju ke kantin, kami isi kegiatan
+      berjalan kami menuju kantin dengan membuat video ala ala vlog. Singkat
+      cerita kita sudah selesai jajan, dan ngevlog pun sudah tidak
+      dilanjutkan. Saat selesai nge vlog itu kita sempat diajak foto bareng
+      oleh mereka bertiga ini .Setelah selesai berfoto saya bertemu dengan
+      najwa. Aku pun memanggilnya tapi dia malah tidak merespon. Dia
+      benar-benar lebih diam sekarang. Mungkin ada kesalahan yang saya lakukan
+      ke dia yang kesalahan itu saya tidak tahu.
+    </p>
+
+    <div
+      class="flex justify-center items-center mt-16 gap-8 object-cover"
+      id="img1"
+    >
+      <img src="af.jpeg" class="chat3" />
+      <img src="ag.jpeg" class="chat3" />
+    </div>
+
+    <p class="ml-1 mt-16">
+      Ketika sudah pulang sekolah, kami pun pulang kerumah dengan berbonengan
+      naik motor. Akupun sempat menanyai alasan mengapa dia selama disekolah
+      seperti lebih kalem dan diam saja ketika bertemu dengan saya. Sepertinya
+      dengan mood yang jelek dia pun berbicara kalau saya ngobrol dengan
+      mantan gebetan saya lagi didepan dia. Saya sebenernya sempat berpikir
+      kalau otan sudah punya pacar baru tidak perlu ada lagi kecemburuan lagi
+      dari si najwa ke saya. Ternyata pemikiran saya salah. Dan ini adalah
+      pertama kalinya kita bertengkar selama 2 bulan. Saya pun intropeksi diri
+      dan menyadari jikalau saya memang salah, karena mau mantan gebetan atau
+      gebetan, dia juga tetap pernah berhubungan dengan kita jadi saya pun
+      meminta maaf kepadanya karena melakukan hal tidak baik itu didepan dia.
+      Dia pun memaafkan saya walau moodnya masih jelek pada saat itu. Hingga
+      keesokan harinya saya sudah menjauhi otan karena saya ingin menjaga
+      hubungan kami berdua tetap baik.
+    </p>
+  </div>
+
+  <!-- bab 3 -->
+
+  <!-- ending -->
+
+  <div id="ending" class="text-black text-6x1 mt-16 text-center">
+    <span
+      class="self-center text-3xl font-bold whitespace-nowrap dark:text-white"
+      >Ending</span
+    >
+  </div>
+
+  <div class="grid place-items-center mt-16" id="video">
+    <video width="550" height="420" autoplay muted loop>
+      <source src="1118(1).mp4" type="video/mp4" />
+    </video>
+
+    <p class="ml-1 mt-16">
+      Sudah berjalan hubungan kita hingga satu tahun lima bulan. Sudah
+      berjalan cukup lama hubungan kita. Banyak sudah masalah yang datang
+      diantara kita berdua apalagi kita berdua sedang LDR karena najwa sudah
+      melanjuti jenjang yang lebih tinggi yaitu perkuliahan. Dia kuliah di
+      Universitas Pendidikan Indonesia. Sementara saya disini sedang
+      kebingungan tentang masa depan saya karena saya sebenarnya tidak memilih
+      untuk gapyear tapi takdir berkata lain. Saya diberikan cobaan yaitu kena
+      tipu oleh satu kampus baru ditangerang yang memberikan janji beasiswa
+      gratis besereta uang saku, yang dimana ujung-ujungnya korupsi dengan
+      kedok ingin ada pemilu yang bahkan tidak ada korelasi nya dengan masalah
+      dana yang tidak tersalurkan itu. Kita berdua juga sedang diambang oleh
+      masalah masing-masing. Saya akui saya menjadi lebih posesif ke najwa
+      karena dia berada di daerah yang berbeda dengan saya dan dia sudah
+      bertemu banyak orang yang membuat kegelisahan saya menjadi-jadi. Namun
+      saya berusaha untuk tetap mempercayai najwa. Itu adalah bukti saya untuk
+      mencintai dia. Untuk najwa sendiri, tolong kamu jaga hati kamu disana.
+      Mungkin aku udah tidak bisa lagi menemani kamu kemanapun sepeti
+      jalan-jalan, beli makan, nemenin shooping, jalan bareng aca dan keliling
+      kota tangerang lagi sesering dulu. Tapi aku bakal selalu nunggu kapanpun
+      kamu akan pulang karena rumah aslimu ada disini, dan aku sebagai orang
+      yang masih singgah didaerah kelahiranmu ini akan menyambut kamu dengan
+      ramah. Aku akan memberikan waktu yang terbaik ataupun perlakuan yang
+      baik saat kamu kembali lagi. So please, stay with me 😊
+    </p>
+  </div>
+  <!-- ending -->
+
+
+  <!-- bonus -->
+  <div id="bonus" class="text-black text-6x1 mt-16 text-center">
+    <span
+      class="self-center text-3xl font-bold whitespace-nowrap dark:text-white"
+      >Bonus</span
+    >
+  </div>
+
+  <div class="id mt-6">
+    <div class="swiper mySwiper1">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="wape1.jpeg" alt=""></div>
+        <div class="swiper-slide"><img src="20230426_162526.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="20230203_095055.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="20230212_160757.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="20230218_173354.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="20230218_173501.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="20230227_133901.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="20230305_160956.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="20230314_133326.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="20230410_195638.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="20230419_184709.jpg" alt=""></div>
+        <div class="swiper-slide"><img src="20230602_211734.jpg" alt=""></div>
+      </div>
+    </div>
+  </div>
+  <!-- bonus -->
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  feather.replace();
+</script>
+
+<!-- Initialize Swiper -->
+<script>
+  // first swap start
+    var swiper = new Swiper(".mySwiper", {
+      centeredSlides: true,
+      autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+// first swap end
+    var swiper = new Swiper(".mySwiper1", {
+          effect: "cards",
+          grabCursor: true,
+        });
+// last swap first
+
+// last swap end
+</script>
+</body>
+
+</html>
